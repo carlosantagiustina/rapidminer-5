@@ -1,30 +1,30 @@
-RapidMiner
-==========
+Revamped RapidMiner 5 (modified version)
+========================================
 
-  Copyright (C) 2001-2014 by RapidMiner and the contributors
+Work in progress
+----------------
 
-  Complete list of developers available at our web site:
-
-       http://rapidminer.com
-
-  This program is free software: you can redistribute it and/or modify
-  it under the terms of the GNU Affero General Public License as published by
-  the Free Software Foundation, either version 3 of the License, or
-  (at your option) any later version.
-
+ This program has been initially released by rapidminer.com as a free software: 
+ you can redistribute it and/or modify it under the terms of the 
+ GNU Affero General Public License as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+ 
   This program is distributed in the hope that it will be useful,
-  but WITHOUT ANY WARRANTY; without even the implied warranty of
-  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-  GNU Affero General Public License for more details.
-
-  You should have received a copy of the GNU Affero General Public License
-  along with this program.  If not, see http://www.gnu.org/licenses/.
-
-
+  but WITHOUT ANY WARRANTY; without even the implied warranty of 
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  
+  
+  See the GNU Affero General Public License for more details.
+  
+You should have received a copy of the GNU Affero General Public License 
+along with this program.  If not, see http://www.gnu.org/licenses/.
 Installing Rapidminer from Sources:
 -----------------------------------
 
-You need to have Apache Ant (https://ant.apache.org/), JDK (http://www.oracle.com/technetwork/java/javase/downloads/) and Git (https://git-scm.com/download) installed. To install RapidMiner 5 run the following commands:
+You need to have Apache Ant (https://ant.apache.org/), 
+JDK (http://www.oracle.com/technetwork/java/javase/downloads/) 
+and Git (https://git-scm.com/download) installed. 
+To install RapidMiner 5 run the following commands:
 
        git clone https://github.com/rapidminer/rapidminer-5.git
        cd rapidminer-5
@@ -37,7 +37,7 @@ How to start RapidMiner (Windows):
 ----------------------------------
 
 To start RapidMiner, you can use the RapidMiner.exe file located in the same
-directory as this readme. If you do not want to/cannot use .exe file, you can also
+directory as this readme. If you do not want to/cannot use .exe file, you can also 
 start RapidMiner via the RapidMinerGUI.bat batchfile in the /scripts folder.
 Starting RapidMiner via the rapidminer.jar is not recommended as doing so will break
 the update mechanism of RapidMiner.
