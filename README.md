@@ -24,14 +24,14 @@ RapidMiner
 Installing Rapidminer from Sources:
 -----------------------------------
 
-You need to have Apache Ant (https://ant.apache.org/), JDK (http://www.oracle.com/technetwork/java/javase/downloads/) and Git (https://git-scm.com/download) installed. Not this is is to installed RapidMiner 5.
+You need to have Apache Ant (https://ant.apache.org/), JDK (http://www.oracle.com/technetwork/java/javase/downloads/) and Git (https://git-scm.com/download) installed. To install RapidMiner 5 run the following commands:
 
-git clone https://github.com/rapidminer/rapidminer-5.git
-cd rapidminer-5
-ant build
-ant release.makePlatformIndependent
-cd scripts
-RapidMinerGUI 
+       git clone https://github.com/rapidminer/rapidminer-5.git
+       cd rapidminer-5
+       ant build
+       ant release.makePlatformIndependent
+       cd scripts
+       RapidMinerGUI 
 
 How to start RapidMiner (Windows):
 ----------------------------------
