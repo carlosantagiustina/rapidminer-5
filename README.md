@@ -20,6 +20,19 @@ RapidMiner
   You should have received a copy of the GNU Affero General Public License
   along with this program.  If not, see http://www.gnu.org/licenses/.
 
+
+Installing Rapidminer from Sources:
+-----------------------------------
+
+You need to have Apache Ant (https://ant.apache.org/), JDK (http://www.oracle.com/technetwork/java/javase/downloads/) and Git (https://git-scm.com/download) installed. Not this is is to installed RapidMiner 5.
+
+git clone https://github.com/rapidminer/rapidminer-5.git
+cd rapidminer-5
+ant build
+ant release.makePlatformIndependent
+cd scripts
+RapidMinerGUI 
+
 How to start RapidMiner (Windows):
 ----------------------------------
 
