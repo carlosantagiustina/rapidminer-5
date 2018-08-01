@@ -30,7 +30,7 @@ JDK (http://www.oracle.com/technetwork/java/javase/downloads/)
 and Git (https://git-scm.com/download) installed. 
 To install RapidMiner 5 run the following commands:
 
-       git clone https://github.com/rapidminer/rapidminer-5.git
+       git clone https://github.com/carlosantagiustina/rapidminer-5.git
        cd rapidminer-5
        ant build
        ant release.makePlatformIndependent
